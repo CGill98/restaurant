@@ -5,31 +5,32 @@
   width: 100%;
   height: 90px;
   background-color: rgb(31, 28, 28);
-  padding: 10px;
-  vertical-align: top;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  align-items: center;
+
 }
 
 .header h1 {
-  display: inline-block;
-  width: 40%;
-  height: 100%;
-  padding-top: 10px;
+  margin: 10px;
 }
 
 .header ul {
-  display: inline-block;
-  position: relative;
-  top: 0px;
+  grid-column: 2/3;
   padding: 0px;
-  width: 25%;
-  margin: 0px;
-  height: 100%;
-  margin-right: 25%;
+  display: grid;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
 }
 
 .headerul li {
   display: inline-block;
-  width: 20%;
 }
 
 .headerul li:hover {
@@ -52,4 +53,29 @@
   height: 700px;
   background-image: url('../public/images/calzone.jpg');
   background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+  text-shadow: 3px 3px 3px #111;
+}
+
+.homecontentdiv > div {
+  grid-column: 2/3;
+  justify-self: center;
+  align-items: center;
+}
+
+.homecontentdiv > div > h1, .homecontentdiv > div > h2{
+  text-align: center;
+}
+
+.homebtndiv {
+  display: grid;
+
+}
+
+.homebtndiv > button{
+  text-shadow: 2px 2px 2px #111;
+  
+
 }

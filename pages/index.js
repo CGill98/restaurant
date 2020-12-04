@@ -15,9 +15,13 @@ export default function Home() {
         <Header />
 
         <div className={styles.homecontentdiv}>
-          <h1>Welcome To San Remo</h1>
-          <h2>Italian Restaurant</h2>
-          <button>Book Your Next Meal</button>
+          <div>
+            <h1>Welcome To San Remo</h1>
+            <h2>Italian Restaurant</h2>
+            <div className={styles.homebtndiv}>
+              <button>Book Your Next Meal</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
