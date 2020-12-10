@@ -76,6 +76,65 @@
 
 .homebtndiv > button{
   text-shadow: 2px 2px 2px #111;
-  
 
 }
+
+.menucontentdiv {
+  padding: 10px;
+  height: auto;
+  background-color:rgb(61, 58, 58);
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 120px;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 3px 3px 3px #111;
+}
+
+.menucontentdiv > div > h1, .menucontentdiv > div > h2, .menucontentdiv > div > ul{
+  text-align: center;
+}
+
+.menucontentdiv > div > ul {
+  list-style: none;
+  width: 100%;
+  display: block;
+}
+
+.menucontentdiv > div > ul > li{
+  text-align: center;
+  width: 100%;
+
+}
+
+.menucontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  row-gap: 150px;
+  column-gap: 10px;
+  padding: 10px;
+  
+ 
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.menuitem {
+  background-color: rgb(31, 28, 28);
+  height: 100%;
+  padding: 10px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px; 
+}
+
+.itemdescdiv {
+  align-items: center;
+}
+
+
