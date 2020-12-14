@@ -17,7 +17,7 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/gallery">
+              <Link href="../Gallery">
                 <a>Gallery</a>
               </Link>
             </li>

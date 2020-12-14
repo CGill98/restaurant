@@ -138,3 +138,21 @@
 }
 
 
+/*Gallery styles below*/
+.gallerycontentdiv {
+  padding: 10px;
+  height: auto;
+  min-height: 700px;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 3px 3px 3px #111;
+  background-color:rgb(61, 58, 58);
+}
+
+.gallerycontentdiv > div {
+  margin-left: auto;
+  margin-right: auto;
+}
